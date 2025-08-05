@@ -398,8 +398,11 @@ aside .cards {
 
 .carousel-item img {
   width: 100%;
+  height: 300px;
+  object-fit: cover; 
   border-radius: 10px;
 }
+
 
 .carousel-controls {
   text-align: center;
@@ -407,6 +410,7 @@ aside .cards {
 }
 
 .carousel-controls button {
+  grid-area: carousel;  
   background: #a07828;
   border: none;
   padding: 8px 12px;
